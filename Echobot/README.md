@@ -1,11 +1,7 @@
 # Skill
-Template skill
+Einfacher Echobot
 
-## Description
-This is a skill template, see [the docs](https://docs.furhat.io/skills/#the-contents-of-a-skill) for a breakdown of the content. 
-For more example skills go to [our Github](https://github.com/FurhatRobotics/)
-
-## Usage
-Max number of users is set to: 2
-Default interaction distance is set to: 1 m
-No other specific requirements. 
+## Beschreibung
+Ein Einfacher Echobot, der zunächst den Nutzer mit der geringsten Entfernung begrüßt und danach den Nutzer auffordert, etwas zu sagen. 
+Anschließend wird das Gesagte vom Bot wiederholt und auf Korrektheit geprüft. Ist das Wiederholte korrekt, endet der Dialog, der Bot verabschiedet sich
+und geht in seinen Anfangs-Zustand zurück. Ansonsten fordert der Bot, dass das Gesagte zu wiederholt wird.
